@@ -1,0 +1,302 @@
+:root{
+    --light-black: #3f3939;
+    --fade-white: #d1d0d1;
+    --light-greenish-white: #def0e3;
+    --light-green: #4ca75f;
+    --cream-white: #f5f5f5;
+    --light-blue: #5b73b2;
+    --light-violet: #bc4998;
+    --jean-blue: #5672be;
+    --sky-blue: #6e98d3;
+    --blueish-white: #f4f8ff;
+    --mid-gray: #DCDBDB;
+    --dark-gray: #747373;
+    --light-gray: #cccdcd;
+    --pale-blue:  #5656C4;
+    --silver-cloud: #CDCDCD;
+    --goldenrod-tan: #C1984C;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: graphik,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,arial,sans-serif;
+}
+
+/* Navbar */
+
+.nav-tool{
+    padding: 20px 25px 20px 45px;
+    gap: 20px;
+}
+
+.navbar-brand:hover{
+    transform: scale(0.9,0.9);
+}
+
+.container-item .navbar-nav{
+    gap: 20px;
+}
+
+.container-item .navbar-nav .nav-item .dropdown button{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 630;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.dropdown .dropdown-toggle:hover{
+    border-bottom: 2px solid black;
+}
+
+.dropdown .dropdown-menu .shop-particular small{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.dropdown .dropdown-menu li button small{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.dropdown .dropdown-menu li:first-of-type + li button small span{
+    text-transform: uppercase;
+    color: var(--goldenrod-tan);
+}
+
+.container-item .input{
+    border: 1px solid var(--silver-cloud);
+    border-radius: 5px;
+    background-color: white;
+    height: 40px;
+    width: 160px;
+    padding: 0 5px;
+}
+
+.container-item .input img{
+    height: 25px;
+    margin: auto;
+}
+
+.container-item .input .search-box{
+    border: none;
+    margin: auto 0;
+    height: 35px;
+    width: 125px;
+}
+
+.container-item .input .search-box:hover{
+    cursor: pointer;
+}
+
+.container-fluid .user-logo{
+    border-radius: 50%;
+    height: 22px;
+    width: 20px;
+}
+
+.container-fluid .user-logo:hover{
+    cursor: pointer;
+}
+
+.container-fluid .cart{
+    padding-bottom: 5px;
+}
+
+.container-fluid .cart .cart-logo{
+    height: 20px;
+    width: 30px;
+}
+
+.container-fluid .cart .cart-logo:hover{
+    cursor: pointer;
+}
+
+.badge:hover{
+    cursor: pointer;
+}
+
+/* another nav that instruct you on which page you are currently present */
+
+.container{
+    padding: 0;
+}
+
+.breadcrumb{
+    padding: 10px;
+}
+
+.breadcrumb-item a{
+    text-decoration: none;
+}
+
+.breadcrumb-item a small{
+    font-weight: 645;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    color: var(--pale-blue);
+}
+
+.active small{
+    font-weight: 645;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+
+/* Footer */
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    margin-top: 150px;
+    padding: 15px;
+}
+
+.about-site{
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    width: 100%;
+    height: 100%;
+    padding: 20px 45px;
+}
+
+.about-list{
+    width: 77%;
+}
+
+.about-list table{
+    width: 100%;
+}
+
+.heading td h2{
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    padding-left: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+    width: 75%;
+}
+
+.about-list table tr td a{
+    text-decoration: none;
+}
+
+.about-list table tr td a small{
+    color: var(--light-gray);
+    width: fit-content;
+    font-weight: 500;
+}
+
+.about-list table tr td a small:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cases{
+    color: var(--light-gray);
+    font-weight: 700;
+}
+
+.cases:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.social-pages{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    gap: 25px;
+    width: 23%;
+    flex-wrap: wrap;
+}
+
+.social-pages h2{
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 10px 10px 10px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.social-pages div{
+    width: fit-content;
+    align-self: center;
+}
+
+.social-pages div img:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.youtubeimage{
+    margin-bottom: 2px;
+}
+
+.mailimage{
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.copyrights{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.copyrights p:first-child{
+    margin-bottom: 0;
+    line-height: 0;
+}
+
+.copyrights p a{
+    text-decoration: none;
+    color: var(--light-gray);
+    font-size: small;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.copyrights p a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.custom-middot{
+    color: var(--light-gray);
+}
+
+.casely{
+    line-height: 10px;
+}
+
+.casely small{
+    color: white;
+    font-size: small;
+    text-transform: uppercase;
+    font-weight: 500;
+}

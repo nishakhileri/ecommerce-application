@@ -1,0 +1,108 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+/* another nav that instruct you on which page you are currently present */
+
+.breadcrumb-nav{
+    margin-bottom: 85px;
+}
+
+/* Main page content */
+
+main{
+    display: flex;
+}
+
+.main-page-content{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-page-content h2{
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.customer-login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#emailid{
+    height: 40px;
+    width: 400px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+#password{
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.customer-login a{
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+}
+
+.customer-login .spacer{
+    height: 40px;
+}
+
+.customer-login button{
+    height: 50px;
+    border-radius: 25px;
+}
+
+#signin{
+    background-color: var(--mid-gray);
+    border: none;
+    color: var(--dark-gray);
+    font-weight: 650;
+    font-size: 17px;
+    letter-spacing: normal;
+}
+
+#new-account{
+    background-color: white;
+    border: 1px solid black;
+    font-weight: 650;
+    font-size: 17px;
+    letter-spacing: normal;
+    margin-top: 10px;
+}
+
+.subscriptions{
+    margin-top: 17px;
+    margin-bottom: 0;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 0;
+}
+
+.main-page-content .clickme{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid gray;
+    width: fit-content;
+}

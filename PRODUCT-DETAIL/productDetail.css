@@ -1,0 +1,81 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+    font-family: dia,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,arial,sans-serif;
+}
+
+.main-box{
+    width: 1200px;
+}
+
+.new-arrivals{
+    position: relative;
+}
+
+.new-arrivals img{
+    padding: 13px 120px;
+}
+
+.new{
+    position: absolute;
+    top: 0px;
+    left: -45px;
+    width: 60px;
+    max-height: 50px;
+    z-index: 5;
+    background-size: contain;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--light-greenish-white);
+    background-color: var(--light-green);
+}
+
+.img-details{
+    padding: 25px 50px;
+}
+
+.img-details h1{
+    letter-spacing: -1.5px;
+    min-width: fit-content!important;
+    max-width: 480px!important;
+    border-bottom: 3px solid black;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 34px;
+    padding-bottom: 6px;
+    margin-bottom: 8px;
+}
+
+.img-details > span{
+    font-size: 12px;
+    font-weight: 550;
+}
+
+.img-details .price{
+    font-size: 18px;
+    font-weight: 630;
+}
+
+.img-descriptions{
+    background-color: var(--blueish-white);
+    border-radius: 7px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.description{
+    text-align: justify;
+}
+
+.cart-btn{
+    margin: 7px auto;
+}
+
+.buy-now-btn{
+    margin: 7px auto;
+}

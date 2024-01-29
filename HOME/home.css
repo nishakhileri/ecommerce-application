@@ -1,0 +1,462 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+/* header carousel */
+
+.carousel{
+    padding: 20px 30px;
+}
+
+.carousel-item{
+    position: relative;
+}
+
+.carousel-item img{
+    border: 1px solid black;
+    border-radius: 23px;
+}
+
+.image-content{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.image-content span{
+    background-color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    text-align: center;
+    font-weight: 630;
+}
+
+.image-content h2{
+    color: white;
+    text-shadow: 2px 2px 6px var(--light-black);
+    font-weight: 640;
+    font-size: 35px;
+}
+
+.btn-dark{
+    border-radius: 25px;
+    text-align: center;
+    padding: 11px 27px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 630;
+}
+
+.image2-content{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.image2-content h2{
+    color: white;
+    text-shadow: 2px 2px 6px var(--light-black);
+    font-weight: 670;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.image2-content .btn{
+    font-size: 13px;
+    padding: 16px 32px;
+    font-weight: 650;
+    border-radius: 40px;
+    font-stretch: 20px;
+}
+
+
+.image3-content{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.image3-content h2{
+    color: white;
+    text-shadow: 2px 2px 6px var(--light-black);
+    font-weight: 670;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.image3-content .btn{
+    font-size: 13px;
+    padding: 16px 32px;
+    font-weight: 650;
+    border-radius: 40px;
+    font-stretch: 20px;
+}
+
+/* content of page */
+
+main{
+    margin-top: 75px;
+}
+
+main h3{
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 32px;
+    letter-spacing: 0px;
+    line-height: normal;
+    margin-bottom: 70px;
+}
+
+/* New Arrivals */
+
+.arrivals-image{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 60px 50px 60px;
+}
+
+.arrivals-image a{
+    text-decoration: none;
+    color: black;
+}
+
+.new-arrivals{
+    position: relative;
+}
+
+.new-arrivals img{
+    border: 1px solid var(--fade-white);
+    border-radius: 32px;
+    padding: 13px 65px;
+}
+
+.new{
+    position: absolute;
+    top: -20px;
+    left: -25px;
+    width: 60px;
+    max-height: 50px;
+    z-index: 5;
+    background-size: contain;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--light-greenish-white);
+    background-color: var(--light-green);
+}
+
+.img-info{
+    text-align: center;
+    padding: 10px;
+}
+
+.img-info p:first-child{
+    font-size: 14px;
+    font-weight: 799;
+    line-height: 20px;
+    margin-bottom: 7px;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+}
+
+.img-info p:first-child + p{
+    line-height: 15px;
+    font-size: small;
+    font-weight: 200;
+}
+
+/* Instagram Block */
+
+.insta-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.insta-images{
+    position: relative;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.img1{
+    background-image: url(../images/insta1.jpg);
+    height: 280px;
+    width: 290px;
+    background-size: cover;
+}
+
+.img2{
+    background-image: url(../images/insta2.jpg);
+    height: 280px;
+    width: 290px;
+    background-size: cover;
+}
+
+.img3{
+    background-image: url(../images/insta3.jpg);
+    height: 280px;
+    width: 290px;
+    background-size: cover;
+}
+
+.img4{
+    background-image: url(../images/insta4.jpg);
+    height: 280px;
+    width: 290px;
+    background-size: cover;
+}
+
+.img5{
+    background-image: url(../images/insta5.jpg);
+    height: 280px;
+    width: 290px;
+    background-size: cover;
+}
+
+.img6{
+    background-image: url(../images/insta6.jpg);
+    height: 280px;
+    width: 290px;
+    background-size: cover;
+}
+
+.img7{
+    background-image: url(../images/insta7.jpg);
+    height: 280px;
+    width: 290px;
+    background-size: cover;
+}
+
+.img8{
+    background-image: url(../images/insta8.jpg);
+    height: 280px;
+    width: 290px;
+    background-size: cover;
+}
+
+.img9{
+    background-image: url(../images/insta9.jpg);
+    height: 280px;
+    width: 290px;
+    background-size: cover;
+}
+
+.img10{
+    background-image: url(../images/insta10.jpg);
+    height: 280px;
+    width: 290px;
+    background-size: cover;
+}
+
+.text-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.text-container:hover{
+    opacity: 0.8;
+}
+
+.text-container button{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 580;
+    font-size: 12px;
+    padding: 15px;
+    line-height: 0;
+    letter-spacing: 1px;
+}
+
+.text-container button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Every Case count block */
+
+.case-charity-block{
+    border-radius: 35px;
+    width: 1100px;
+    background-color: var(--cream-white);
+    padding: 70px 0;
+    margin-bottom: 100px;
+}
+
+.case-charity-block h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 0px;
+    line-height: normal;
+    margin-bottom: 22px;
+    color: var(--light-blue);
+}
+
+.case-charity-block .underline{
+    border: 2px solid var(--light-blue);
+    display: flex;
+    width: 185px;
+    margin: 0 auto;
+    margin-bottom: 17px;
+}
+
+.case-charity-block p{
+    text-align: center;
+    line-height: 32px;
+    font-size: 18px;
+    max-width: 610px;
+    margin: 0 auto;
+}
+
+.mission-name{
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.mission-name:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.case-charity-block a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+    margin-left: 500px;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.case-charity-block a:hover{
+    text-decoration: underline;
+}
+
+.arrow{
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Shop all Cases */
+
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 82px;
+    margin-bottom: 0;
+}
+
+.bold{
+    color: var(--light-violet);
+}
+
+.case-btn{
+    font-size: 13px;
+    padding: 16px 55px;
+    margin: 45px 550px;
+    font-stretch: 20px;
+    border-radius: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 660;
+    background-color: var(--jean-blue);
+}
+
+.case-btn:hover{
+    background-color: var(--sky-blue);
+    color: white;
+}
+
+.shopping-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.items-list{
+    position: relative;
+    margin-bottom: 35px;
+    max-height: 400px;
+    max-width: 630px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.items-list:hover{
+    transform: scale(0.9, 0.9);
+    transition-delay: 0.5s;
+    opacity: 1;
+}
+
+.iphone-cases{
+    background-image: url(../images/iphone-cases.jpg);
+    height: 400px;
+    width: 630px;
+    opacity: 0.9;
+}
+
+.power-pods{
+    background-image: url(../images/power-pods.jpg);
+    height: 400px;
+    width: 630px;
+    opacity: 0.9;
+}
+
+.trending-iphone-cases{
+    background-image: url(../images/trending-iphone-cases.jpg);
+    height: 400px;
+    width: 630px;
+    opacity: 0.9;
+}
+
+.samsung-cases{
+    background-image: url(../images/samsung-cases.jpg);
+    height: 400px;
+    width: 630px;
+    opacity: 0.9;
+}
+
+.items-name{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 750;
+    color: white;
+    text-shadow: 2px 2px 6px var(--light-black);
+}
+
+/* Treading Now */
+
+.trend-heading{
+    margin-top: 45px;
+}
+
+
+
+
